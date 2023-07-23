@@ -1,0 +1,80 @@
+/* common css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+nav {
+  background-color: #02918c;
+}
+/* common css */
+/* container starts */
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 26px 25.5px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.menu {
+  width: 60%;
+  text-align: right;
+}
+.logo {
+  width: 40%;
+  padding: 17px 0 25px 0;
+}
+/* container end */
+/* banner  */
+#banner {
+  background-image: url(../images/back.jpg);
+  padding: 210px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner_items {
+  text-align: center;
+  color: white;
+}
+.banner_items h3 {
+  font-size: 30px;
+}
+.banner_items h1 {
+  font-size: 68px;
+  text-transform: uppercase;
+  letter-spacing: 32px;
+}
+.banner_items p {
+  font-size: 12px;
+  font-weight: 900;
+}
+.banner_items img {
+  display: block;
+  margin: 52px auto;
+}
+.banner_items a {
+  background-color: #cfc91d;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 19px 42px;
+}
+/* banner end */
